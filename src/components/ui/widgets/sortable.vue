@@ -15,22 +15,11 @@ export default {
     },
     columns: {
       type: Array,
-      default: () => [
-        { id: 1, sortable: true, prop: 'date', label: '日期', width: 180 },
-        { id: 2, sortable: true, prop: 'name', label: '姓名', width: 180 },
-        { id: 3, sortable: false, prop: 'address', label: '地址', width: '0' }
-      ]
+      default: () => []
     },
     tableData: {
       type: Array,
-      default: () => [{
-        username: '2016-05-03',
-        department: '2016-05-03',
-        pageviews_count: '2016-05-03',
-        interplay_count: '2016-05-03',
-        manual_count: '2016-05-03',
-        tools: '2016-05-03'
-      }]
+      default: () => []
     }
   },
   data() {

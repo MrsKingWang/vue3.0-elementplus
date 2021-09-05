@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@mock/*": ["mock/*"],
+      "@static/*": ["public/static/*"],
+      "@comps/*": ["src/components/*"],
+      "@page/*": ["src/components/page/*"],
+      "@pop/*": ["src/components/pop/*"],
+      "@ui/*": ["src/components/ui/*"],
+      "@widgets/*": ["src/components/ui/widgets/*"],
+      "@common/*": ["src/common/*"],
+      "@router/*": ["src/router/*"],
+      "@server/*": ["src/server/*"],
+      "@style/*": ["src/assets/style/*"],
+      "@utils/*": ["src/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "jahwa"]
+}
